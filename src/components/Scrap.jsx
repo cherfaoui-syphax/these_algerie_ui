@@ -2,10 +2,9 @@ import * as React from 'react';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Dropzone from "./DropZone";
 import { useState } from 'react';
 import Button from '@mui/material/Button';
-import { Code , LoadingOverlay} from '@mantine/core';
+import { Code } from '@mantine/core';
 import { NumberInput } from '@mantine/core';
 import { DataGrid } from '@mui/x-data-grid';
 

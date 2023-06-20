@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import Dropzone from "./DropZone";
 import { useState } from 'react';
 import Button from '@mui/material/Button';
-import { Code , LoadingOverlay} from '@mantine/core';
+import { Code } from '@mantine/core';
 export default function ExtractCitation(props) {
     const [file, setFile] = useState();
     const [result ,setResult] = useState("");

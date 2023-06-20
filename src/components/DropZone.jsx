@@ -1,6 +1,6 @@
 import { Group, Text, useMantineTheme, rem } from '@mantine/core';
 import { IconUpload, IconFile, IconX } from '@tabler/icons-react';
-import { Dropzone, DropzoneProps, PDF_MIME_TYPE } from '@mantine/dropzone';
+import { Dropzone, PDF_MIME_TYPE } from '@mantine/dropzone';
 import { useState } from 'react';
 import {LoadingOverlay} from '@mantine/core';
 export default function DropZone(props) {
