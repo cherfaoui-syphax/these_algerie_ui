@@ -17,7 +17,7 @@ export default function Classify(props) {
         data.append('text', text);
 
     
-        fetch('http://38.242.132.182:5000//nlp/classifier-json', {
+        fetch('http://38.242.132.182:5000/nlp/classifier-json', {
             method: 'POST',
             body: data
           })
