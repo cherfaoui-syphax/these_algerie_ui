@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/api"
-  to = "http://38.242.132.182:5000"
+  from = "/api/*"
+  to = "http://38.242.132.182:5000/:splat"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
@@ -9,4 +9,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
+  conditions = {Path = "!/api"}
