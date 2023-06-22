@@ -1,6 +1,6 @@
 import { Group, Text, useMantineTheme, rem } from '@mantine/core';
 import { IconUpload, IconFile, IconX } from '@tabler/icons-react';
-import { Dropzone, PDF_MIME_TYPE } from '@mantine/dropzone';
+import { Dropzone, PDF_MIME_TYPE ,MIME_TYPES } from '@mantine/dropzone';
 import { useState } from 'react';
 import {LoadingOverlay} from '@mantine/core';
 export default function DropZone(props) {
@@ -19,7 +19,6 @@ export default function DropZone(props) {
       onDrop={ (files) =>  handleFileChange(files) }
       onReject={(files) => alert('rejected files', files)}
       maxSize={15 * 1024 ** 2}
-      accept={PDF_MIME_TYPE}
       {...props}
     >                                    <LoadingOverlay visible={props.overlay} overlayBlur={2}/>
 
