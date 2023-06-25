@@ -88,7 +88,7 @@ export default function ExtractKeywords(props) {
                                     name="OCR"
                                     label="OCR"
                                     description="Choose yes for OCR and no for pdf mining"
-                                    withAsterisk
+                                    
                                     >
                                         <Group mt="xs">
                                             <Radio value="yes" label="Yes" />
