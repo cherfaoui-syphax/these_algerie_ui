@@ -125,8 +125,22 @@ export default function ExtractKeywords(props) {
                                     <div style={{minWidth:"90%",margin:"auto"}}>
                                         <Code block style={{minWidth:"90%",fontSize:"1rem"}}> {JSON.stringify(result, null, 2) }</Code>
                                     </div>
+                                
                                     
 
+                                </Grid>
+
+                            </Paper>
+                            <Paper elevation={1} style ={{ margin : "auto" , padding :"5%" , width:"90%"}}>
+                                <Grid container>
+                                    <h1 style={{margin:"auto" , marginBottom:50}}> Abstract </h1>
+                                    <div style={{minWidth:"90%",margin:"auto"}}>
+                                        {result.abstract}
+                                    </div>
+                                    <h1 style={{margin:"auto" , marginBottom:50}}> Mots clès </h1>
+                                    <div style={{minWidth:"90%",margin:"auto"}}>
+                                        {result.keywords}
+                                    </div>                                     
                                 </Grid>
 
                             </Paper>
